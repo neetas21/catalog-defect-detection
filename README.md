@@ -1,5 +1,9 @@
 # Catalog Defect Detection + LLM-Assisted Attribute Correction
 
+**🔗 Live Demo:** [catalog-defect-detection-jhew9c6cb6oxqvwibgfjns.streamlit.app](https://catalog-defect-detection-jhew9c6cb6oxqvwibgfjns.streamlit.app)
+
+Try it live — enter a product listing (title, category, price, ratings, store) and see the model flag defective listings in real time, with an LLM-generated description for any listing found incomplete.
+
 ## Business Problem
 E-commerce catalogs contain millions of listings, but a meaningful share have incomplete or low-quality attributes — missing descriptions, empty feature lists, missing categories. These gaps hurt the customer's buying decision (can't compare products, can't judge fit or specs) and hurt the platform's own search/discovery ranking for that listing. Manually auditing listings at scale isn't feasible, so this project asks:
 
@@ -66,3 +70,9 @@ Built a Streamlit app that:
 - Threshold and model choices were driven by business cost reasoning, not just accuracy
 - Offline evaluation (prompt benchmarking) used a practical "mask and test" methodology applicable when no labeled eval set exists
 - End-to-end: labeling logic → model training/tuning → LLM generation → deployment → monitoring
+
+## Author
+**Neeta Singh** — B.Tech, Civil Engineering, NIT Raipur (2025), transitioning into data analytics and applied ML/GenAI roles.
+This project is part of an ongoing portfolio exploring classical ML and LLM-based approaches to real-world catalog and business data problems.
+
+Connect on LinkedIn: [linkedin.com/in/neetasingh239](https://www.linkedin.com/in/neetasingh239/)
